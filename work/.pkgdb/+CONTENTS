@@ -1,0 +1,44 @@
+@cwd /usr/pkg
+@pkgcfl compton-[0-9]*
+@name picom-8.2
+@blddep dbus-1.12.20nb1
+@pkgdep dbus>=0.91
+@blddep libconfig-1.7.2
+@pkgdep libconfig>=1.4
+@blddep libev-4.33
+@pkgdep libev>=4.01
+@blddep pcre-8.45
+@pkgdep pcre>=8.30nb1
+@blddep hicolor-icon-theme-0.17nb1
+@pkgdep hicolor-icon-theme>=0.9nb1
+@blddep desktop-file-utils-0.26
+@pkgdep desktop-file-utils>=0.10nb1
+@blddep xcb-util-image-0.4.0
+@pkgdep xcb-util-image>=0.3.9
+@blddep xcb-util-renderutil-0.3.9
+@pkgdep xcb-util-renderutil>=0.3.8nb1
+@blddep digest-20211023
+@blddep x11-links-1.34
+@blddep uthash-2.3.0
+@blddep cwrappers-20180325
+@comment $NetBSD: PLIST,v 1.2 2020/05/02 11:23:04 tnn Exp $
+bin/compton
+@comment Symlink:picom
+bin/compton-trans
+@comment Symlink:picom-trans
+bin/picom
+@comment MD5:6d6a3dee9963a1f5541a806872a4e1d5
+bin/picom-trans
+@comment MD5:75d99a0a8d6183209205e8884f1e18ee
+man/man1/picom-trans.1
+@comment MD5:5cc55e8cdcb663cf7cabe3c007b661e1
+man/man1/picom.1
+@comment MD5:1d5cacd1389171c1e97384393fa0a359
+share/applications/compton.desktop
+@comment MD5:f6c26cb91c0a683e672169f8ce506e79
+share/applications/picom.desktop
+@comment MD5:3f9e6a050a80a07a29494117dce2d3de
+share/icons/hicolor/48x48/apps/compton.png
+@comment MD5:5ff6a73381a55b154a7116db92737e68
+share/icons/hicolor/scalable/apps/compton.svg
+@comment MD5:8243e2a0855bf784f0d41d4fa35af583

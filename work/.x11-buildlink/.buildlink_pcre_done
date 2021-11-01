@@ -1,0 +1,30 @@
+/usr/pkg/include/pcre.h
+/usr/pkg/include/pcre_scanner.h
+/usr/pkg/include/pcre_stringpiece.h
+/usr/pkg/include/pcrecpp.h
+/usr/pkg/include/pcrecpparg.h
+/usr/pkg/include/pcreposix.h
+/usr/pkg/lib/libpcre.a
+/usr/pkg/lib/libpcre.la (created)
+/usr/pkg/lib/libpcre.so
+/usr/pkg/lib/libpcre.so.1
+/usr/pkg/lib/libpcre.so.1.2.13
+/usr/pkg/lib/libpcre16.a
+/usr/pkg/lib/libpcre16.la (created)
+/usr/pkg/lib/libpcre16.so
+/usr/pkg/lib/libpcre16.so.0
+/usr/pkg/lib/libpcre16.so.0.2.13
+/usr/pkg/lib/libpcrecpp.a
+/usr/pkg/lib/libpcrecpp.la (created)
+/usr/pkg/lib/libpcrecpp.so
+/usr/pkg/lib/libpcrecpp.so.0
+/usr/pkg/lib/libpcrecpp.so.0.0.2
+/usr/pkg/lib/libpcreposix.a
+/usr/pkg/lib/libpcreposix.la (created)
+/usr/pkg/lib/libpcreposix.so
+/usr/pkg/lib/libpcreposix.so.0
+/usr/pkg/lib/libpcreposix.so.0.0.7
+/usr/pkg/lib/pkgconfig/libpcre.pc
+/usr/pkg/lib/pkgconfig/libpcre16.pc
+/usr/pkg/lib/pkgconfig/libpcrecpp.pc
+/usr/pkg/lib/pkgconfig/libpcreposix.pc
