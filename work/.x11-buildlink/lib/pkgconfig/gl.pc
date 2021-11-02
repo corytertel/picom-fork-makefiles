@@ -1,0 +1,13 @@
+prefix=/usr/X11R7
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: gl
+Description: Mesa OpenGL library
+Requires.private: libdrm x11 xext xdamage xfixes xcb-glx xcb-dri2 xxf86vm
+Version: 18.3.4
+Libs: -Wl,-rpath,${libdir} -L${libdir} -lGL
+Libs.private: -lm -lpthread -pthread
+Cflags: -I${includedir} 
+glx_tls: yes

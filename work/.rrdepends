@@ -1,5 +1,5 @@
 bootstrap	digest>=20211023	digest-20211023
-tool	asciidoc-[0-9]*	asciidoc-9.1.1
+tool	asciidoc-[0-9]*	asciidoc-9.1.0nb2
 tool	meson>=0	meson-0.58.1
 tool	pkgconf-[0-9]*	pkgconf-1.8.0
 build	x11-links>=1.34	x11-links-1.34

@@ -1,0 +1,8 @@
+prefix=/usr/X11R7
+exec_prefix=${prefix}
+includedir=${prefix}/include
+ 
+Name: XProxyManagementProtocol
+Description: X Proxy Management Protocol headers
+Version: 1.0.3
+Cflags: -I${includedir}

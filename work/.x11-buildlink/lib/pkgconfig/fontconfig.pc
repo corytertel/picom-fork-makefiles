@@ -1,0 +1,18 @@
+prefix=/usr/X11R7
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+sysconfdir=/etc/X11
+localstatedir=/var
+PACKAGE=
+confdir=/etc/fonts
+cachedir=/etc/fonts
+
+Name: Fontconfig
+Description: Font configuration and customization library
+Version: 2.13.1
+Requires: 
+Requires.private: 
+Libs: -Wl,-rpath,${libdir} -L${libdir} -lfontconfig
+Libs.private:  -lexpat
+Cflags: -I${includedir}  

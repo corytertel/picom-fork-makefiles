@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.6 2021/04/12 11:01:56 nia Exp $
 
-DISTNAME=	picom-8.2
+DISTNAME=	picom-7.5
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_GITHUB:=ibhagwan/}
 GITHUB_TAG=	v${PKGVERSION_NOREV}
@@ -43,3 +43,5 @@ post-install:
 .include "../../x11/xcb-util-image/buildlink3.mk"
 .include "../../x11/xcb-util-renderutil/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
+.include "../../x11/libxdg-basedir/buildlink3.mk"
+.include "../../devel/cmake/buildlink3.mk"

@@ -1,5 +1,5 @@
 worklog=/usr/pkgsrc/x11/picom/work/.work.log
-wrksrc=/usr/pkgsrc/x11/picom/work/picom-8.2
+wrksrc=/usr/pkgsrc/x11/picom/work/picom-7.5
 exec_path=/usr/pkgsrc/x11/picom/work/.cwrapper/bin/shlibtool
 exec=/usr/pkg/bin/shlibtool
 transform=L:/usr/lib/:

@@ -1,0 +1,10 @@
+prefix=/usr/X11R7
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: fontenc
+Description: The fontenc Library
+Version: 1.1.4
+Cflags: -I${includedir}
+Libs: -Wl,-rpath,${libdir} -L${libdir} -lfontenc
