@@ -3,7 +3,5 @@ $NetBSD: distinfo,v 1.7 2021/10/26 11:34:18 nia Exp $
 BLAKE2s (picom-7.5.tar.gz) = 41d4ce15560011098e9e3e37e446409a95478968c043388ea965be0771cdb069
 SHA512 (picom-7.5.tar.gz) = 6535e5eab1a243bbee62448bc48830b7ea3566f94b2c45d9ca76fd8b8056e1f00e55f0e4b58110364d2c4f56652cc005622d644c1db1db41d2811ecc19e6d44a
 Size (picom-7.5.tar.gz) = 219456 bytes
-SHA1 (patch-src_c2.c) = ef49d0b02691b495b625423c832c603852045a73
-SHA1 (patch-src_config.c) = ffffb13adcf2e6767813fdaade83793d074f4cf5
-SHA1 (patch-src_dbus.c) = 191ff5f507b882bac219174a89d887fd6aaf231a
-SHA1 (patch-src_string__utils.h) = 90f8fefb9ce4cc14049e494b49041e48bd9d82d6
+SHA1 (patch-src_backend_gl_gl__common.c) = 8bfee62be93d16bf3eebcd43f4c25dd77cd1810e
+SHA1 (patch-src_utils.h) = 88d072447e8cd6c0a38c14a30fdaebd72b6a8961

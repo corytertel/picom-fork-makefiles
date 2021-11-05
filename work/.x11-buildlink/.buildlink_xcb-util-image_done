@@ -1,9 +1,0 @@
-/usr/pkg/include/xcb/xcb_bitops.h
-/usr/pkg/include/xcb/xcb_image.h
-/usr/pkg/include/xcb/xcb_pixel.h
-/usr/pkg/lib/libxcb-image.a
-/usr/pkg/lib/libxcb-image.la (created)
-/usr/pkg/lib/libxcb-image.so
-/usr/pkg/lib/libxcb-image.so.0
-/usr/pkg/lib/libxcb-image.so.0.0.0
-/usr/pkg/lib/pkgconfig/xcb-image.pc

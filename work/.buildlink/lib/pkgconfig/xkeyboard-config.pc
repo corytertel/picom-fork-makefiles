@@ -1,8 +1,0 @@
-prefix=/usr/X11R7
-datarootdir=${prefix}/share
-datadir=${datarootdir}
-xkb_base=${prefix}/lib/X11/xkb
-
-Name: XKeyboardConfig
-Description: X Keyboard configuration data
-Version: 2.27

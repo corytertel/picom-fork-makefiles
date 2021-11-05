@@ -1,9 +1,0 @@
-prefix=/usr/X11R7
-exec_prefix=${prefix}
-includedir=${prefix}/include
- 
-Name: TrapProto
-Description: Trap extension headers
-Version: 3.4.3
-Requires: xt
-Cflags: -I${includedir}

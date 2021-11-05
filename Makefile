@@ -2,14 +2,15 @@
 
 DISTNAME=	picom-7.5
 CATEGORIES=	x11
-MASTER_SITES=	${MASTER_SITE_GITHUB:=ibhagwan/}
+MASTER_SITES=	${MASTER_SITE_GITHUB:=jonaburg/}
 GITHUB_TAG=	v${PKGVERSION_NOREV}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	https://github.com/ibhagwan/picom
+HOMEPAGE=	https://github.com/jonaburg/picom
 COMMENT=	Lightweight compositor for X11 (fork of Compton)
 LICENSE=	mpl-2.0 AND mit
 
+USE_CMAKE=      yes
 USE_TOOLS+=	pkg-config
 USE_LANGUAGES=	c c++
 
@@ -17,8 +18,6 @@ CONFLICTS+=	compton-[0-9]*
 SUPERSEDES+=	compton-[0-9]*
 
 TOOL_DEPENDS+=	asciidoc-[0-9]*:../../textproc/asciidoc
-
-MESON_ARGS+=	-Dwith_docs=true
 
 REPLACE_SH+=		bin/picom-trans
 
@@ -42,6 +41,5 @@ post-install:
 .include "../../x11/pixman/buildlink3.mk"
 .include "../../x11/xcb-util-image/buildlink3.mk"
 .include "../../x11/xcb-util-renderutil/buildlink3.mk"
-.include "../../mk/bsd.pkg.mk"
 .include "../../x11/libxdg-basedir/buildlink3.mk"
-.include "../../devel/cmake/buildlink3.mk"
+.include "../../mk/bsd.pkg.mk"
